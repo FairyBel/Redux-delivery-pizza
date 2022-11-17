@@ -76,6 +76,7 @@ button{
     color: #272121;
     background-color:rgba(255, 228, 196);
     border: none;
+    border-radius: 10px;
 }
 .card-btn{
     padding: 10px;
