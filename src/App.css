@@ -1,8 +1,8 @@
-body{
+body {
   background-color: #010101;
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
 }
 
 .img-header {
@@ -21,34 +21,35 @@ body{
   flex-direction: column;
   align-items: center;
   margin-top: -270px;
-  
 }
 
-h1, h2, h3, p{
-  color:bisque;
+h1,
+h2,
+h3,
+p {
+  color: bisque;
   text-align: center;
 }
-h1{
+h1 {
   font-weight: 900;
   text-shadow: 1px 1px 4px white;
   font-size: 45px;
 }
 
-.container-all{
+.container-all {
   display: flex;
   flex-wrap: wrap;
 }
-.cont-menu{
+.cont-menu {
   display: flex;
   justify-content: flex-start;
   margin-left: 50px;
 }
-.cont-dish{
+.cont-dish {
   flex-grow: 1;
   flex-basis: 16%;
-
 }
-.block{
+.block {
   color: white;
   margin-top: 50px;
 }
