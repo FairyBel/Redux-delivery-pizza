@@ -1,12 +1,14 @@
-import "./App.css";
 import Cart from "./Components/Cart/Cart";
 import Dishes from "./Components/DishesComponents/Dishes";
 import AllCategories from "./Components/Filter.js/AllCategories";
 import image from "./firstpic.jpg";
+import Nav from "./Nav";
+import './App.css';
+
 
 function App() {
-  return (
-    <div>
+   return (
+    <div>      
       <div>
         <img className="img-header" src={image} alt="headband" />
       </div>
@@ -14,6 +16,9 @@ function App() {
         <h1>PIZZA LOCA</h1>
         <h2>Ресторан доставки безумно вкусной пиццы</h2>
         <h2>Доставим за 30 минут!</h2>
+      </div>
+      <div className="navbar">
+        < Nav/>  
       </div>
       <div className="container-all">
         <div className="cont-menu">

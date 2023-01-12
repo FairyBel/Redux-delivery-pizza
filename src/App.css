@@ -16,6 +16,31 @@ body {
   z-index: -1;
 }
 
+.navbar{
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 10px;
+  padding: 30px;
+  width: 100%;
+  background-color:rgba(255, 228, 196, 0.8);
+}
+.nav{
+  color:black;
+  margin: 60px;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.nav:hover{
+  color: #5a831b;
+  font-size: 22px;
+  transition: all 1s;
+}
+.log{
+  color: red;
+}
+
 .App {
   display: flex;
   flex-direction: column;
